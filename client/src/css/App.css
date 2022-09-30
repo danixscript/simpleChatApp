@@ -1,0 +1,93 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+padding: 0;
+margin: 0;
+
+}
+.flexcenter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.flexbetwee{
+  display: flex;
+  flex-direction: column;
+ align-items: flex-start;
+ 
+}
+.flexrowcenter{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.flexrow{
+  display: flex;
+  flex-direction: row;
+}
+.flexcol{
+  display: flex;
+  flex-direction: column;
+
+}
+.center{
+  justify-content: center;
+  align-items: center;
+}
+.spaceb{
+  justify-content: space-between;
+}
+
+.navfirstchild{
+  padding-left: 10px;
+  padding-right: 10px;
+ 
+  align-items: center;
+}
+
+.hw100{
+  height: 100%;
+  width: 100%;
+
+}
+.w100{
+  width: 100%;
+}
+.h100{
+  height: 100%;
+}
+.bc{
+  background-color: aqua;
+}
+
+.inputuser{
+  height: 40px;
+  margin-bottom: 25px;
+}
+.boxlist{
+  width: 500px;
+
+}
+.arount{
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.all_acrd_by{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  
+}
+.boxlist{
+  margin-top: 50px;
+}
+.boxesise{
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
