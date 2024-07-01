@@ -26,11 +26,9 @@ function Navbar() {
     
       <div className="nav_list_box ">
         <div className="navlinks_list flexcol">
-         
-          <NavLink   activeclassname="active" className='navlink ' to="/home" exact> <span className="icon">icon</span> <span className={open?"title":"disable"}>home</span></NavLink>
-        
-          <NavLink exact="true" activeclassname="active" className='navlink' to="/menu"><span className="icon">icon</span> <span className={open?"title":"disable"}>home</span></NavLink>
-          <NavLink exact="true" activeclassname="active" className='navlink' to="/chat"><span className="icon">icon</span> <span className={open?"title":"disable"}>home</span></NavLink>
+          <NavLink   activeclassname="active" className='navlink ' to="/home" exact> <span className="icon">none</span> <span className={open?"title":"disable"}>home</span></NavLink>
+          <NavLink exact="true" activeclassname="active" className='navlink' to="/menu"><span className="icon">none</span> <span className={open?"title":"disable"}>home</span></NavLink>
+          <NavLink exact="true" activeclassname="active" className='navlink' to="/chat"><span className="icon">chat</span> <span className={open?"title":"disable"}>home</span></NavLink>
 
         </div>
       </div>
